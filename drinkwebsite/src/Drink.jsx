@@ -81,7 +81,9 @@ const Final = () => {
 
   return (
     <div>
-      <h1>Soft Drink</h1>
+   <div>
+   <h1 className="compname">SoftDrink</h1>
+   </div>
       <form className="searchbar">
         <input
           type="text"
@@ -92,6 +94,7 @@ const Final = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </form>
+      <hr className="hr" / >
       <hr className="hr" / >
       {loading && !isError?.status && <h3>Loading...</h3>}
       {isError?.status && <h2 style={{ color: "red",textAlign:"center"}}>{isError.msg}</h2>}
@@ -119,4 +122,4 @@ const Final = () => {
   );
 };
 
-export default Final;
+export default Final;
