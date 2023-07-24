@@ -2,6 +2,14 @@
     padding: 8px;
     text-align: center;
 }
+.container {
+    background-color:rgb(236, 239, 243);
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+  }
 .searchbar input{
     margin-top: 0;
     padding: 10px;
@@ -13,12 +21,11 @@
     border-bottom: 2px solid black;
     /* margin-bottom: 8px; */
 }
-.compname {
+.compname span{
     align-items:center;
-}
-.compname::first-letter{
-    font-size: 40px;
-    color: crimson;
+    color: #ff0157;
+    font-weight: 700;
+    font-size:1.5em ;
 }
 .cocktaildata{
     display: grid;
@@ -31,7 +38,7 @@
     border-radius: 8px;
     object-fit: cover;
     margin-top: 15px;
-    border: 1px solid rgb(246, 8, 56);
+    border: 2px solid rgb(246, 8, 155);
 }
 .text{
     text-align: center;
@@ -56,3 +63,4 @@
     margin-top: 5px;
 }
 }
+

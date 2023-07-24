@@ -1,6 +1,5 @@
 import Drink from "./Drink";
 
-
 function App() {
   return (
     <div className="App">
